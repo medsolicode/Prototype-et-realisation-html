@@ -2,10 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Creative CV - Mohamed Aghbalou</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Aghbalou - CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FEF3E2;
+    }
+    header {
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 5px;
+      color: #102C57;
+    }
+
+    nav a {
+      color: #102C57;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    .profile-section {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #F8F0E3;
+    }
+    .profile-section h2 {
+      color: #102C57;
+      margin: 10px 0 5px;
+    }
+
+
+
+
+    section h2 {
+      border-bottom: 2px solid #DAC0A3;
+      padding-bottom: 5px;
+      color: #102C57;
+      margin-top: 30px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      border: 1px solid #DAC0A3;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #EADBC8;
+      color: #102C57;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+      border-top: 1px solid #DAC0A3;
+      color: #555;
+      font-size: 0.9em;
+    }
+
+    .section-divider {
+      border: none;
+      height: 1px;
+      background-color: #DAC0A3;
+      margin: 20px 0;
+    }
+  </style>
 </head>
-<body bgcolor="#FEF3E2">
-  <header align="center">
+<body>
+  <header>
     <h1>Mon CV</h1>
     <nav>
       <a href="index.html">Home</a> |
@@ -15,7 +96,7 @@
     <hr>
   </header>
 
-  <section align="center">
+  <section class="profile-section">
     <img src="assets/profile-circle.svg" width="150" height="150" alt="photo"><br>
     <h2><em>Mohamed Aghbalou</em></h2>
     <p>
@@ -29,53 +110,59 @@
     <h2>Skills</h2>
     <ul>
       <li>HTML, CSS</li>
-      <li>Git, GitHub, Team Collaboration</li>
+      <li>Git, GitHub, Team Work</li>
     </ul>
-    <hr>
+    <div class="section-divider"></div>
   </section>
 
   <section>
     <h2>Education</h2>
-    <table border="1" width="100%" cellpadding="8">
-      <tr>
-        <th>école</th>
-        <th>nom</th>
-      </tr>
-      <tr>
-        <td>univesitée</td>
-        <td>univesitée abdelmalek assadi </td>
-      </tr>
-      <tr>
-        <td>ecole</td>
-        <td>lycée imame ghazali - tetouan</td>
-      </tr>
+    <table>
+      <thead>
+        <tr>
+          <th>École</th>
+          <th>Nom</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Université</td>
+          <td>Université Abdelmalek Essaâdi</td>
+        </tr>
+        <tr>
+          <td>École</td>
+          <td>Lycée Imame Ghazali - Tétouan</td>
+        </tr>
+      </tbody>
     </table>
-    <hr>
+    <div class="section-divider"></div>
   </section>
 
   <section>
     <h2>Experience</h2>
-    <table border="1" width="100%" cellpadding="8">
-      <tr>
-        <th>Position</th>
-        <th>société </th>
-      </tr>
-      <tr>
-        <td>ma position</td>
-        <td>société A</td>
-      </tr>
-      <tr>
-        <td>Freelance</td>
-        <td>Portfolio en GitHub</td>
-      </tr>
+    <table>
+      <thead>
+        <tr>
+          <th>Position</th>
+          <th>Société</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ma Position</td>
+          <td>Société A</td>
+        </tr>
+        <tr>
+          <td>Freelance</td>
+          <td>Portfolio en GitHub</td>
+        </tr>
+      </tbody>
     </table>
-    <hr>
+    <div class="section-divider"></div>
   </section>
  
-    
-  </section>
-  <footer align="center">
-    <p>© 2025 Solicode. All rights reserved.</p>
+  <footer>
+    <p>2025 Solicode.</p>
   </footer>
 
 </body>
